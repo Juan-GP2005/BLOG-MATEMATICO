@@ -27,4 +27,11 @@ const publicaciones = [
     fecha: "2026-10-20",
     resumen: "Binomios Conjugados explicados"
   },
+  {
+    id: "factorizacion",
+    titulo: "Factorización 1",
+    archivo: "entradas/factorizacion.js",
+    fecha: "2026-10-17",
+    resumen: "Explicación de qué es la factorización"
+  },
 ];
