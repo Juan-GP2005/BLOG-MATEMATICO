@@ -34,4 +34,11 @@ const publicaciones = [
     fecha: "2026-10-17",
     resumen: "Explicación de qué es la factorización"
   },
+  {
+    id: "factorizacion-2",
+    titulo: "Factorización 2",
+    archivo: "entradas/factorizacion2.js",
+    fecha: "2026-10-22",
+    resumen: "Segunda parte de la factorización"
+  },
 ];
