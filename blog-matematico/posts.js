@@ -41,4 +41,11 @@ const publicaciones = [
     fecha: "2026-10-22",
     resumen: "Segunda parte de la factorización"
   },
+  {
+    id: "ecuaciones-primer-grado",
+    titulo: "Ecuaciones de Primer Grado",
+    archivo: "entradas/ecuaciones_de_primer_grado.js",
+    fecha: "2026-10-29",
+    resumen: "Explicación de ecuaciones de primer grado"
+  },
 ];
