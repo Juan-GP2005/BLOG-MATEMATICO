@@ -1,4 +1,3 @@
-contenidoEntrada = `
 <section>
     <style>
         .tabla-binomio { border-collapse: collapse; text-align: center; margin: 0.5rem 0; }
@@ -10,81 +9,81 @@ contenidoEntrada = `
         .resultado-tabla .resultado { color: red; }
     </style>
     <h2>Binomios Conjugados</h2>
-    <p>Los binomios conjugados son dos binomios que tienen los mismos términos, pero uno está sumado y el otro restado, es decir, expresiones de la forma (<em>a</em> + <em>b</em>)(<em>a</em> - <em>b</em>).</p>
+    <p>Los binomios conjugados son dos binomios que tienen los mismos términos, pero uno está sumado y el otro restado, es decir, expresiones de la forma (a + b)(a - b).</p>
     <h3>Fórmula</h3>
     <p>El producto de dos binomios conjugados es igual al cuadrado del primer término menos el cuadrado del segundo término. Los términos del medio se cancelan, por lo que el resultado es una diferencia de cuadrados.</p>
-    <p><strong>Binomios conjugados:</strong> (<em>a</em> + <em>b</em>)(<em>a</em> - <em>b</em>) = <em>a</em><sup>2</sup> - <em>b</em><sup>2</sup></p>
+    <p><strong>Binomios conjugados:</strong> (a + b)(a - b) = a² - b²</p>
     <p><strong>Ejemplo de binomios conjugados (con números):</strong></p>
-    <p>(<em>x</em> + 5)(<em>x</em> - 5) = (<em>x</em>)<sup>2</sup> - (5)<sup>2</sup> = <em>x</em><sup>2</sup> - 25</p>
+    <p>(x + 5) (x - 5) = (x)² - (5)² = x² - 25</p>
     <p><strong>Comprobación con la tabla:</strong></p>
     <div class="resultado-tabla">
         <table class="tabla-binomio">
             <tr>
-                <td><em>x</em></td>
-                <td class="rojo">-5<em>x</em></td>
+                <td>x</td>
+                <td class="rojo">-5x</td>
                 <td>-5</td>
             </tr>
             <tr class="fila-central">
-                <td class="rojo"><em>x</em><sup>2</sup></td>
-                <td class="rojo">-5<em>x</em> + 5<em>x</em></td>
+                <td class="rojo">x²</td>
+                <td class="rojo">-5x + 5x</td>
                 <td class="rojo">-25</td>
             </tr>
             <tr>
-                <td><em>x</em></td>
-                <td class="rojo">5<em>x</em></td>
+                <td>x</td>
+                <td class="rojo">5x</td>
                 <td>5</td>
             </tr>
         </table>
         <span>→</span>
-        <span class="resultado"><em>x</em><sup>2</sup> - 25</span>
+        <span class="resultado">x² - 25</span>
     </div>
     <p>La fórmula también se aplica cuando los términos tienen coeficientes o exponentes. Basta con elevar al cuadrado cada término completo, incluyendo su coeficiente.</p>
     <p><strong>Ejemplo de binomios conjugados (con coeficientes):</strong></p>
-    <p>(3<em>x</em> + 4)(3<em>x</em> - 4) = (3<em>x</em>)<sup>2</sup> - (4)<sup>2</sup> = 9<em>x</em><sup>2</sup> - 16</p>
+    <p>(3x + 4) (3x - 4) = (3x)² - (4)² = 9x² - 16</p>
     <p><strong>Comprobación con la tabla:</strong></p>
     <div class="resultado-tabla">
         <table class="tabla-binomio">
             <tr>
-                <td>3<em>x</em></td>
-                <td class="rojo">-12<em>x</em></td>
+                <td>3x</td>
+                <td class="rojo">-12x</td>
                 <td>-4</td>
             </tr>
             <tr class="fila-central">
-                <td class="rojo">9<em>x</em><sup>2</sup></td>
-                <td class="rojo">-12<em>x</em> + 12<em>x</em></td>
+                <td class="rojo">9x²</td>
+                <td class="rojo">-12x + 12x</td>
                 <td class="rojo">-16</td>
             </tr>
             <tr>
-                <td>3<em>x</em></td>
-                <td class="rojo">12<em>x</em></td>
+                <td>3x</td>
+                <td class="rojo">12x</td>
                 <td>4</td>
             </tr>
         </table>
         <span>→</span>
-        <span class="resultado">9<em>x</em><sup>2</sup> - 16</span>
+        <span class="resultado">9x² - 16</span>
     </div>
     <p><strong>Ejemplo de binomios conjugados (con dos variables):</strong></p>
-    <p>(2<em>a</em> - 5<em>b</em>)(2<em>a</em> + 5<em>b</em>) = (2<em>a</em>)<sup>2</sup> - (5<em>b</em>)<sup>2</sup> = 4<em>a</em><sup>2</sup> - 25<em>b</em><sup>2</sup></p>
+    <p>(2a - 5b) (2a + 5b) = (2a)² - (5b)² = 4a² - 25b²</p>
     <p><strong>Comprobación con la tabla:</strong></p>
     <div class="resultado-tabla">
         <table class="tabla-binomio">
             <tr>
-                <td>2<em>a</em></td>
-                <td class="rojo">10<em>ab</em></td>
-                <td>5<em>b</em></td>
+                <td>2a</td>
+                <td class="rojo">10ab</td>
+                <td>5b</td>
             </tr>
             <tr class="fila-central">
-                <td class="rojo">4<em>a</em><sup>2</sup></td>
-                <td class="rojo">10<em>ab</em> - 10<em>ab</em></td>
-                <td class="rojo">-25<em>b</em><sup>2</sup></td>
+                <td class="rojo">4a²</td>
+                <td class="rojo">10ab - 10ab</td>
+                <td class="rojo">-25b²</td>
             </tr>
             <tr>
-                <td>2<em>a</em></td>
-                <td class="rojo">-10<em>ab</em></td>
-                <td>-5<em>b</em></td>
+                <td>2a</td>
+                <td class="rojo">-10ab</td>
+                <td>-5b</td>
             </tr>
         </table>
         <span>→</span>
-        <span class="resultado">4<em>a</em><sup>2</sup> - 25<em>b</em><sup>2</sup></span>
+        <span class="resultado">4a² - 25b²</span>
     </div>
 </section>`;
