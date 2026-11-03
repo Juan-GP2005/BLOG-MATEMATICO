@@ -35,20 +35,21 @@ contenidoEntrada = `
     </style>
 
     <!-- Título y definición -->
-    <h2>Binomios con Término Común</h2>
-    <p>Un binomio con término común es el producto de dos binomios que comparten uno de sus términos, es decir, expresiones de la forma (x + a)(x + b), donde x es el término común.</p>
-        <hr>
+    <h2>Binomios Conjugados</h2>
+    <p>Los binomios conjugados son dos binomios que tienen los mismos términos, pero uno está sumado y el otro restado, es decir, expresiones de la forma (a + b)(a - b).</p>
 
     <!-- ============ FÓRMULA GENERAL ============ -->
     <h3>Fórmula</h3>
-    <p>El producto de dos binomios con un término común es igual al cuadrado del término común, más la suma de los términos no comunes multiplicada por el término común, más el producto de los términos no comunes.</p>
-    <p><strong>Binomios con término común:</strong> (x + a)(x + b) = x² + (a + b)x + ab</p>
+    <p>El producto de dos binomios conjugados es igual al cuadrado del primer término menos el cuadrado del segundo término. Los términos del medio se cancelan, por lo que el resultado es una diferencia de cuadrados.</p>
 
-    <!-- ============ EJEMPLO 1: AMBOS POSITIVOS ============ -->
-    <p><strong>Ejemplo de binomios con término común (ambos positivos):</strong></p>
+    <!-- <sup> escribe el texto como superíndice: a<sup>2</sup> se ve a² -->
+    <p><strong>Binomios conjugados:</strong> (a + b)(a - b) = a<sup>2</sup> - b<sup>2</sup></p>
+
+    <!-- ============ EJEMPLO 1: CON NÚMEROS ============ -->
+    <p><strong>Ejemplo de binomios conjugados (con números):</strong></p>
 
     <!-- Método 1: fórmula directa -->
-    <p>(x + 3)(x + 5) = x² + (3 + 5)x + (3)(5) = x² + 8x + 15</p>
+    <p>(x + 5)(x - 5) = (x)<sup>2</sup> - (5)<sup>2</sup> = x<sup>2</sup> - 25</p>
 
     <!-- Método 2: tabla para comprobar el resultado -->
     <p><strong>Comprobación con la tabla:</strong></p>
@@ -56,12 +57,103 @@ contenidoEntrada = `
     <!-- Contenedor: tabla + flecha + resultado, en una línea -->
     <div class="resultado-tabla">
         <table class="tabla-binomio">
-            <!-- Fila superior: términos del primer binomio (x y 3).
-                 3x es el producto de 3 por la x del otro binomio (en rojo porque entra al resultado) -->
+            <!-- Fila superior: términos de (x - 5) y su producto cruzado -5x (en rojo) -->
             <tr>
                 <td>x</td>
-                <td class="rojo">3x</td>
-                <td>3</td>
+                <td class="rojo">-5x</td>
+                <td>-5</td>
             </tr>
             <!-- Fila central (con rayas): el resultado por columnas.
-                 x·x = x², 3x + 5x (productos cruzados), 3·5 = 15
+                 x·x = x², -5x + 5x (se cancelan, da 0) y (-5)(5) = -25 -->
+            <tr class="fila-central">
+                <td class="rojo">x<sup>2</sup></td>
+                <td class="rojo">-5x + 5x</td>
+                <td class="rojo">-25</td>
+            </tr>
+            <!-- Fila inferior: términos de (x + 5) y su producto cruzado 5x -->
+            <tr>
+                <td>x</td>
+                <td class="rojo">5x</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+        <!-- Flecha entre la tabla y el resultado -->
+        <span>→</span>
+
+        <!-- Resultado final, en rojo (la clase "resultado" está definida en el CSS) -->
+        <span class="resultado">x<sup>2</sup> - 25</span>
+    </div>
+
+    <p>La fórmula también se aplica cuando los términos tienen coeficientes o exponentes. Basta con elevar al cuadrado cada término completo, incluyendo su coeficiente.</p>
+
+    <!-- ============ EJEMPLO 2: CON COEFICIENTES ============ -->
+    <p><strong>Ejemplo de binomios conjugados (con coeficientes):</strong></p>
+
+    <!-- Se eleva al cuadrado todo el término: (3x)² = 9x² -->
+    <p>(3x + 4)(3x - 4) = (3x)<sup>2</sup> - (4)<sup>2</sup> = 9x<sup>2</sup> - 16</p>
+    <p><strong>Comprobación con la tabla:</strong></p>
+
+    <div class="resultado-tabla">
+        <table class="tabla-binomio">
+            <!-- Fila superior: términos de (3x - 4) y su producto cruzado -12x -->
+            <tr>
+                <td>3x</td>
+                <td class="rojo">-12x</td>
+                <td>-4</td>
+            </tr>
+            <!-- Fila central: 3x·3x = 9x², -12x + 12x = 0 y (-4)(4) = -16 -->
+            <tr class="fila-central">
+                <td class="rojo">9x<sup>2</sup></td>
+                <td class="rojo">-12x + 12x</td>
+                <td class="rojo">-16</td>
+            </tr>
+            <!-- Fila inferior: términos de (3x + 4) y su producto cruzado 12x -->
+            <tr>
+                <td>3x</td>
+                <td class="rojo">12x</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+        <span>→</span>
+
+        <!-- Resultado final de este ejemplo -->
+        <span class="resultado">9x<sup>2</sup> - 16</span>
+    </div>
+
+    <!-- ============ EJEMPLO 3: CON DOS VARIABLES ============ -->
+    <p><strong>Ejemplo de binomios conjugados (con dos variables):</strong></p>
+
+    <!-- Aquí el término restado va primero, pero el resultado sigue siendo diferencia de cuadrados -->
+    <p>(2a - 5b)(2a + 5b) = (2a)<sup>2</sup> - (5b)<sup>2</sup> = 4a<sup>2</sup> - 25b<sup>2</sup></p>
+    <p><strong>Comprobación con la tabla:</strong></p>
+
+    <div class="resultado-tabla">
+        <table class="tabla-binomio">
+            <!-- Fila superior: términos de (2a + 5b) y su producto cruzado 10ab -->
+            <tr>
+                <td>2a</td>
+                <td class="rojo">10ab</td>
+                <td>5b</td>
+            </tr>
+            <!-- Fila central: 2a·2a = 4a², 10ab - 10ab = 0 y (5b)(-5b) = -25b² -->
+            <tr class="fila-central">
+                <td class="rojo">4a<sup>2</sup></td>
+                <td class="rojo">10ab - 10ab</td>
+                <td class="rojo">-25b<sup>2</sup></td>
+            </tr>
+            <!-- Fila inferior: términos de (2a - 5b) y su producto cruzado -10ab -->
+            <tr>
+                <td>2a</td>
+                <td class="rojo">-10ab</td>
+                <td>-5b</td>
+            </tr>
+        </table>
+
+        <span>→</span>
+
+        <!-- Resultado final de este ejemplo -->
+        <span class="resultado">4a<sup>2</sup> - 25b<sup>2</sup></span>
+    </div>
+</section>`; // Cierra el texto y la instrucción con ;
