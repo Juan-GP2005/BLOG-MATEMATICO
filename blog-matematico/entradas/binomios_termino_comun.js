@@ -1,3 +1,4 @@
+contenidoEntrada = `
 <section>
     <style>
         .tabla-binomio { border-collapse: collapse; text-align: center; margin: 0.5rem 0; }
@@ -10,6 +11,7 @@
     </style>
     <h2>Binomios con Término Común</h2>
     <p>Un binomio con término común es el producto de dos binomios que comparten uno de sus términos, es decir, expresiones de la forma (x + a)(x + b), donde x es el término común.</p>
+        <hr>
     <h3>Fórmula</h3>
     <p>El producto de dos binomios con un término común es igual al cuadrado del término común, más la suma de los términos no comunes multiplicada por el término común, más el producto de los términos no comunes.</p>
     <p><strong>Binomios con término común:</strong> (x + a)(x + b) = x² + (a + b)x + ab</p>
@@ -38,6 +40,7 @@
         <span class="resultado">x² + 8x + 15</span>
     </div>
     <p>La fórmula también funciona cuando los términos no comunes son negativos o tienen signos distintos. Basta con tener cuidado con los signos: se suman los términos no comunes con su signo y se multiplican con la ley de los signos.</p>
+        <hr>
     <p><strong>Ejemplo de binomios con término común (signos distintos):</strong></p>
     <p>(x - 2)(x + 7) = x² + (-2 + 7)x + (-2)(7) = x² + 5x - 14</p>
     <p><strong>Comprobación con la tabla:</strong></p>
@@ -62,6 +65,7 @@
         <span>→</span>
         <span class="resultado">x² + 5x - 14</span>
     </div>
+        <hr>
     <p><strong>Ejemplo de binomios con término común (ambos negativos):</strong></p>
     <p>(x - 4)(x - 6) = x² + (-4 - 6)x + (-4)(-6) = x² - 10x + 24</p>
     <p><strong>Comprobación con la tabla:</strong></p>
