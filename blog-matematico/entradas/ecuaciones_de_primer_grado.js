@@ -3,8 +3,7 @@ contenidoEntrada = `
     <h2>Ecuaciones de Primer Grado</h2>
     <p>En esta entrada se explicará el procedimiento general para resolver cualquier ecuación de primer grado con ejemplos.</p>
     <hr>
-<head>
-    <h3>El procedimiento general para resolver una ecuación de primer grado o ecuación lineal consiste en encontrar el valor de la incógnita (x) que hace que la igualdad sea verdadera.</h2>
+    <h3>El procedimiento general para resolver una ecuación de primer grado o ecuación lineal consiste en encontrar el valor de la incógnita (x) que hace que la igualdad sea verdadera.</h3>
     <ol>
         <li>Eliminar paréntesis de la ecuación y aplicar la propiedad distributiva multiplicando el número o signo que está fuera por cada uno de los términos que se encuentran dentro del paréntesis.</li>
         <li>Multiplicar la ecuación por el mínimo compun múltiplo (mcm) de los demominadores para convertir la ecuación en entera.</li>
@@ -14,7 +13,7 @@ contenidoEntrada = `
     </ol>
     <h2>Ejemplos por tipo</h2>
     <h3>1. Ecuación Entera</h3>
-<p><strong>Resolver:</strong> 5<i>x</i> - 3 = 2<i>x</i> + 12</p>
+<p><strong>Resolver:</strong> 5x - 3 = 2x + 12</p>
 <p><strong>Procedimiento:</strong></p>
 <ul>
   <li>5x - 2x = 12 + 3 (Transposición)</li>
@@ -36,7 +35,7 @@ contenidoEntrada = `
 <hr>
 
 <h3>3. Ecuación con Signos de Agrupación</h3>
-<p><strong>Resolver:</strong> 2(3<i>x</i> - 4) - 3(<i>x</i> + 1) = 4</p>
+<p><strong>Resolver:</strong> 2(3x - 4) - 3(x + 1) = 4</p>
 <p><strong>Procedimiento:</strong></p>
 <ul>
   <li>6x - 8 - 3x - 3 = 4 (Eliminación de paréntesis)</li>
@@ -49,7 +48,7 @@ contenidoEntrada = `
 <hr>
 
 <h3>4. Ecuación Literal</h3>
-<p><strong>Resolver:</strong> a<i>x</i> + b = c<i>x</i> + d (despejar <i>x</i>)</p>
+<p><strong>Resolver:</strong> ax + b = cx + d (despejar x)</p>
 <p><strong>Procedimiento:</strong></p>
 <ul>
   <li>ax - cx = d - b (Transposición)</li>
@@ -94,6 +93,5 @@ contenidoEntrada = `
     <li>Comprobación de la suma total: 40 (junior) + 65 (senior) = 105 líneas de código. (¡La igualdad se cumple perfectamente!)</li>
   </ul>
 </div>
-</head>
 </section>
 `;
