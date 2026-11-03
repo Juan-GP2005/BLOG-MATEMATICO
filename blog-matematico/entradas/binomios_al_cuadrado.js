@@ -10,12 +10,13 @@ contenidoEntrada = `
     </style>
     <h2>Binomio al cuadrado</h2>
     <p>Un binomio al cuadrado es una expresión algebraica formada por dos términos sumados o restados que se elevan al cuadrado.</p>
+    <hr>
     <h3>Fórmulas</h3>
-    <p>Suma: El cuadrado de la suma de dos términos es igual al cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo.</p>
-    <p><strong>Binomio de la suma al cuadrado:</strong> (a + b)² = a² + 2ab + b²</p>
+    <p><b>Suma</b>: El cuadrado de la suma de dos términos es igual al cuadrado del primero, más el doble del primero por el segundo, más el cuadrado del segundo.</p>
+    <p><strong>Binomio de la suma al cuadrado:</strong> (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></p>
     <p><strong>Ejemplo de binomio al cuadrado (suma):</strong></p>
-    <p>(x + 5)² = (x)² + 2(x)(5) + (5)² = x² + 10x + 25</p>
-    <p>Con la tabla: (x + 5)² = (x + 5)(x + 5)</p>
+    <p>(x + 5)<sup>2</sup> = (x)<sup>2</sup> + 2(x)(5) + (5)<sup>2</sup> = x<sup>2</sup> + 10x + 25</p>
+    <p>Con la tabla: (x + 5)<sup>2</sup> = (x + 5)(x + 5)</p>
     <div class="resultado-tabla">
         <table class="tabla-binomio">
             <tr>
@@ -24,7 +25,7 @@ contenidoEntrada = `
                 <td>5</td>
             </tr>
             <tr class="fila-central">
-                <td>x²</td>
+                <td>x<sup>2</sup></td>
                 <td>5x + 5x</td>
                 <td>25</td>
             </tr>
@@ -35,13 +36,14 @@ contenidoEntrada = `
             </tr>
         </table>
         <span>→</span>
-        <span class="resultado">x² + 10x + 25</span>
+        <span class="resultado">x<sup>2</sup> + 10x + 25</span>
     </div>
-    <p>Resta: El cuadrado de la resta de dos términos es igual al cuadrado del primero, menos el doble del primero por el segundo, más el cuadrado del segundo.</p>
-    <p><strong>Binomio de la resta al cuadrado:</strong> (a - b)² = a² - 2ab + b²</p>
+    <hr>
+    <p><b>Resta</b>: El cuadrado de la resta de dos términos es igual al cuadrado del primero, menos el doble del primero por el segundo, más el cuadrado del segundo.</p>
+    <p><strong>Binomio de la resta al cuadrado:</strong> (a - b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
     <p><strong>Ejemplo de binomio al cuadrado (resta con coeficientes):</strong></p>
-    <p>(3x - 4)² = (3x)² - 2(3x)(4) + (4)² = 9x² - 24x + 16</p>
-    <p>Con la tabla: (3x - 4)² = (3x - 4)(3x - 4)</p>
+    <p>(3x - 4)<sup>2</sup> = (3x)<sup>2</sup> - 2(3x)(4) + (4)<sup>2</sup> = 9x<sup>2</sup> - 24x + 16</p>
+    <p>Con la tabla: (3x - 4)<sup>2</sup> = (3x - 4)(3x - 4)</p>
     <div class="resultado-tabla">
         <table class="tabla-binomio">
             <tr>
@@ -50,7 +52,7 @@ contenidoEntrada = `
                 <td>-4</td>
             </tr>
             <tr class="fila-central">
-                <td>9x²</td>
+                <td>9x<sup>2</sup></td>
                 <td>-12x - 12x</td>
                 <td>16</td>
             </tr>
@@ -61,6 +63,6 @@ contenidoEntrada = `
             </tr>
         </table>
         <span>→</span>
-        <span class="resultado">9x² - 24x + 16</span>
+        <span class="resultado">9x<sup>2</sup> - 24x + 16</span>
     </div>
 </section>`;
