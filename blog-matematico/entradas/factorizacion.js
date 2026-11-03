@@ -14,7 +14,7 @@ contenidoEntrada = `
         <li>Dividir cada término original entre el factor común encontrado para obtener los términos que quedarán dentro del paréntesis.</li>
     </ul>
     <h4>Ejemplo</h4>
-    <p>Factoriza: <strong>6x<sup>3</sup> + 9x<sup>2</sup> − 3x</strong></p>
+    <p>Factoriza: <strong>6x³ + 9x² − 3x</strong></p>
     <div class="paso">
         <b>Paso 1:</b> Busca el máximo común divisor de los coeficientes (6, 9 y 3): <b>3</b>.
     </div>
@@ -23,17 +23,17 @@ contenidoEntrada = `
     </div>
     <div class="paso">
         <b>Paso 3:</b> El término común es <b>3x</b>. Divide cada término entre él:<br>
-        <p>6x<sup>3</sup> ÷ 3x = 2x<sup>2</sup></p>
-        <p>9x<sup>2</sup> ÷ 3x = 3x</p>
+        <p>6x³ ÷ 3x = 2x²</p>
+        <p>9x² ÷ 3x = 3x</p>
         <p>−3x ÷ 3x = −1</p>
-        <p>Resultado: 3x(2x<sup>2</sup> + 3x − 1)</p>
+        <p>Resultado: 3x(2x² + 3x − 1)</p>
     </div>
     <div class="paso comprobacion">
         <b>Comprobación:</b> multiplica 3x por cada término del paréntesis:<br>
-        3x · 2x<sup>2</sup> = 6x<sup>3</sup><br>
-        3x · 3x = 9x<sup>2</sup><br>
+        3x · 2x² = 6x³<br>
+        3x · 3x = 9x²<br>
         3x · (−1) = −3x<br>
-        Al sumar: 6x<sup>3</sup> + 9x<sup>2</sup> − 3x ✔<br>
+        Al sumar: 6x³ + 9x² − 3x ✔<br>
         Coincide con la expresión original, así que la factorización es correcta.
     </div>
 
@@ -47,8 +47,8 @@ contenidoEntrada = `
         <li>El término del medio es el doble producto de las raíces de esos dos términos.</li>
     </ul>
     <p>Fórmulas:</p>
-    <p><strong>a<sup>2</sup> + 2ab + b<sup>2</sup> = (a + b)<sup>2</sup></strong></p>
-    <p><strong>a<sup>2</sup> − 2ab + b<sup>2</sup> = (a − b)<sup>2</sup></strong></p>
+    <p><strong>a² + 2ab + b² = (a + b)²</strong></p>
+    <p><strong>a² − 2ab + b² = (a − b)²</strong></p>
     <h4>Procedimiento</h4>
     <ul>
         <li>Calcular la raíz cuadrada del primer término (a) y del tercer término (b).</li>
@@ -56,10 +56,10 @@ contenidoEntrada = `
         <li>Escribir el binomio al cuadrado, usando el mismo signo que tiene el término central.</li>
     </ul>
     <h4>Ejemplo</h4>
-    <p>Factoriza: <strong>4x<sup>2</sup> − 12x + 9</strong></p>
+    <p>Factoriza: <strong>4x² − 12x + 9</strong></p>
     <div class="paso">
         <b>Paso 1:</b> Saca la raíz cuadrada del primer y del tercer término:<br>
-        √(4x<sup>2</sup>) = 2x<br>
+        √(4x²) = 2x<br>
         √9 = 3
     </div>
     <div class="paso">
@@ -69,14 +69,14 @@ contenidoEntrada = `
     </div>
     <div class="paso">
         <b>Paso 3:</b> Escribe el binomio al cuadrado:<br>
-        <p>Resultado: (2x − 3)<sup>2</sup></p>
+        <p>Resultado: (2x − 3)²</p>
     </div>
     <div class="paso comprobacion">
-        <b>Comprobación:</b> desarrolla (2x − 3)<sup>2</sup> = (2x − 3)(2x − 3):<br>
-        (2x)<sup>2</sup> = 4x<sup>2</sup><br>
+        <b>Comprobación:</b> desarrolla (2x − 3)² = (2x − 3)(2x − 3):<br>
+        (2x)² = 4x²<br>
         2 · (2x) · (−3) = −12x<br>
-        (−3)<sup>2</sup> = 9<br>
-        Al sumar: 4x<sup>2</sup> − 12x + 9 ✔<br>
+        (−3)² = 9<br>
+        Al sumar: 4x² − 12x + 9 ✔<br>
         Coincide con la expresión original, así que la factorización es correcta.
     </div>
 
@@ -86,7 +86,7 @@ contenidoEntrada = `
     <h4>¿Cómo reconocerla?</h4>
     <p>Es un binomio (dos términos) donde ambos términos son cuadrados perfectos y están separados por un signo de resta.</p>
     <p>Fórmula:</p>
-    <p><strong>a<sup>2</sup> − b<sup>2</sup> = (a + b)(a − b)</strong></p>
+    <p><strong>a² − b² = (a + b)(a − b)</strong></p>
     <p>El resultado son dos binomios conjugados: iguales, pero uno con signo positivo y otro con signo negativo.</p>
     <h4>Procedimiento</h4>
     <ul>
@@ -95,11 +95,11 @@ contenidoEntrada = `
         <li>Escribir otro paréntesis con la resta de las raíces: (a − b).</li>
     </ul>
     <h4>Ejemplo</h4>
-    <p>Factoriza: <strong>25x<sup>2</sup> − 49</strong></p>
+    <p>Factoriza: <strong>25x² − 49</strong></p>
     <div class="paso">
         <b>Paso 1:</b> Verifica que sea una resta de dos cuadrados perfectos:<br>
-        25x<sup>2</sup> = (5x)<sup>2</sup><br>
-        49 = 7<sup>2</sup>
+        25x² = (5x)²<br>
+        49 = 7²
     </div>
     <div class="paso">
         <b>Paso 2:</b> Saca las raíces: a = 5x y b = 7.
@@ -110,11 +110,11 @@ contenidoEntrada = `
     </div>
     <div class="paso comprobacion">
         <b>Comprobación:</b> multiplica (5x + 7)(5x − 7):<br>
-        5x · 5x = 25x<sup>2</sup><br>
+        5x · 5x = 25x²<br>
         5x · (−7) = −35x<br>
         7 · 5x = 35x<br>
         7 · (−7) = −49<br>
-        Al sumar: 25x<sup>2</sup> − 35x + 35x − 49 = 25x<sup>2</sup> − 49 ✔<br>
+        Al sumar: 25x² − 35x + 35x − 49 = 25x² − 49 ✔<br>
         Los términos de en medio se cancelan y coincide con la expresión original.
     </div>
         <hr>
@@ -124,28 +124,28 @@ contenidoEntrada = `
     <h4>Término común ↔ Multiplicación de un monomio por un polinomio</h4>
     <p>El producto notable es la propiedad distributiva: <strong>a(b + c + d) = ab + ac + ad</strong></p>
     <div class="paso">
-        <b>Ida:</b> 3x(2x<sup>2</sup> + 3x − 1) = 6x<sup>3</sup> + 9x<sup>2</sup> − 3x
+        <b>Ida:</b> 3x(2x² + 3x − 1) = 6x³ + 9x² − 3x
     </div>
     <div class="paso">
-        <b>Regreso:</b> 6x<sup>3</sup> + 9x<sup>2</sup> − 3x = 3x(2x<sup>2</sup> + 3x − 1)
+        <b>Regreso:</b> 6x³ + 9x² − 3x = 3x(2x² + 3x − 1)
     </div>
 
     <h4>Trinomio cuadrado perfecto ↔ Binomio al cuadrado</h4>
-    <p>El producto notable es el cuadrado de un binomio: <strong>(a ± b)<sup>2</sup> = a<sup>2</sup> ± 2ab + b<sup>2</sup></strong></p>
+    <p>El producto notable es el cuadrado de un binomio: <strong>(a ± b)² = a² ± 2ab + b²</strong></p>
     <div class="paso">
-        <b>Ida:</b> (2x − 3)<sup>2</sup> = 4x<sup>2</sup> − 12x + 9
+        <b>Ida:</b> (2x − 3)² = 4x² − 12x + 9
     </div>
     <div class="paso">
-        <b>Regreso:</b> 4x<sup>2</sup> − 12x + 9 = (2x − 3)<sup>2</sup>
+        <b>Regreso:</b> 4x² − 12x + 9 = (2x − 3)²
     </div>
 
     <h4>Diferencia de cuadrados ↔ Binomios conjugados</h4>
-    <p>El producto notable es el producto de binomios conjugados: <strong>(a + b)(a − b) = a<sup>2</sup> − b<sup>2</sup></strong></p>
+    <p>El producto notable es el producto de binomios conjugados: <strong>(a + b)(a − b) = a² − b²</strong></p>
     <div class="paso">
-        <b>Ida:</b> (5x + 7)(5x − 7) = 25x<sup>2</sup> − 49
+        <b>Ida:</b> (5x + 7)(5x − 7) = 25x² − 49
     </div>
     <div class="paso">
-        <b>Regreso:</b> 25x<sup>2</sup> − 49 = (5x + 7)(5x − 7)
+        <b>Regreso:</b> 25x² − 49 = (5x + 7)(5x − 7)
     </div>
 </section>
 `;
